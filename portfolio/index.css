@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#grid{
+    text-align: left;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-gap: 0px 20px;
+    grid-template-rows: 100px 100px 100px 100px;
+}
+#header{
+    color: black;
+    text-align: center;
+    grid-column-start: 1;
+    font-size: 300%;
+    font-weight: 550;
+}
+#about{
+    color: black;
+    grid-column-start: 1;
+    margin-left: 5%;
+    font-size: 150%
+}
+#bio{
+    color: black;
+    grid-column-start: 1;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+#p1{
+    color: black;
+    grid-column-start: 1;
+    margin-left: 10%;
+    margin-top: 1%;
+}
+#contactTitle{
+    color: black;
+    grid-column-start: 1;
+    margin-left: 10%;
+    margin-bottom: 1%;
+}
+#contact{
+    color: black;
+    grid-column-start: 1;
+    margin-left: 10%;
+}
+#profile{
+    color: black;
+    grid-column-start: 1;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+.skills{
+    color: black;
+    grid-column-start: 1;
+    margin-left: 10%;
+    margin-top: 1%;
+}
+#projects{
+    color: black;
+    grid-column-start: 1;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+#tech{
+    color: black;
+    grid-column-start: 1;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+#end{
+    text-align: center;
+}
+#frog{
+    width: 150px;
+    margin-left: 10%;
+}
+#link{
+    margin-left: 10%;
+    margin-top: 2%;
+}
+#vp{
+    margin-left: 10%;
+    width: 110px;
+
+}
+#api{
+    width: 156.5px;
+}
+#used{
+    margin-left: 10%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
